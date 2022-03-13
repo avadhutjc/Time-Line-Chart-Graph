@@ -20,6 +20,7 @@
         <entry key="app/src/main/res/menu/only_github.xml" value="0.228125" />
         <entry key="app/src/main/res/menu/pie.xml" value="0.228125" />
         <entry key="app/src/main/res/menu/radar.xml" value="0.228125" />
+        <entry key="app/src/main/res/menu/realtime.xml" value="0.1125" />
         <entry key="app/src/main/res/menu/scatter.xml" value="0.228125" />
       </map>
     </option>

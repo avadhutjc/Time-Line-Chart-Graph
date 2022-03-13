@@ -20,11 +20,6 @@ import android.widget.Toast;
 import com.github.mikephil.charting.charts.Chart;
 import com.ajc.time.R;
 
-/**
- * Base class of all Activities of the Demo Application.
- *
- * @author Philipp Jahoda
- */
 public abstract class DemoBase extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback {
 
     protected final String[] months = new String[]{
@@ -68,7 +63,7 @@ public abstract class DemoBase extends AppCompatActivity implements ActivityComp
             if (grantResults.length == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 saveToGallery();
             } else {
-                Toast.makeText(getApplicationContext(), "Saving FAILED!", Toast.LENGTH_SHORT)
+                Toast.makeText(getApplicationContext(), "Saving FAILED! Please Retry", Toast.LENGTH_SHORT)
                         .show();
             }
         }
